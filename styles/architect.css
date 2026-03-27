@@ -43,6 +43,15 @@ body{
 
 }
 
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section {
+    margin-top: 130px;
+}
+
 
 /* ========== header styles ========== */
 
@@ -93,11 +102,45 @@ body{
     width: 100%;
 }
 
+/* ========== teams and features styles ========== */
+.teams {
+    align-items: center;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features{
+    padding-left: 73px;
+    max-width: 530px;
+}
+
+.feature-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    
+
+}
+
+.title-feature {
+    color: #FF900E;
+    font-weight: 700;
+    
+}
+
+#quick-list {
+    font-weight: 500;
+}
+
+
+
 /* ========== responsive media query styles ========== */
 
 @media screen and (max-width: 576px){
-    .navbar, 
-    .nav-links {
+    .navbar, .nav-links {
         flex-direction: column;
     }
 }
@@ -106,7 +149,7 @@ body{
 
 
 
-/* ========== shared styles ========== */
+
 /* ========== shared styles ========== */
 /* ========== shared styles ========== */
 /* ========== shared styles ========== */

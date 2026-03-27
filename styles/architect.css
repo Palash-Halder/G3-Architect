@@ -32,8 +32,16 @@ body{
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.btn-primary {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
 
-
+}
 
 
 /* ========== header styles ========== */
@@ -42,6 +50,12 @@ body{
 /* ========== navbar related styles ========== */
 .navbar {
     justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 3rem;
 }
 
 .nav-item{
@@ -62,11 +76,42 @@ body{
 }
 
 
+/* ========== banner styles ========== */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+/* ========== responsive media query styles ========== */
+
+@media screen and (max-width: 576px){
+    .navbar, 
+    .nav-links {
+        flex-direction: column;
+    }
+}
 
 
 
 
 
-
+/* ========== shared styles ========== */
+/* ========== shared styles ========== */
+/* ========== shared styles ========== */
+/* ========== shared styles ========== */
+/* ========== shared styles ========== */
+/* ========== shared styles ========== */
+/* ========== shared styles ========== */
 /* ========== shared styles ========== */
 
